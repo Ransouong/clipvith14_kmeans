@@ -1,0 +1,37 @@
+{
+  "n_input": 2660,
+  "n_dropped": 1301,
+  "K": 9,
+  "silhouette": 0.8235183358192444,
+  "inertia": 2974.705810546875,
+  "bootstrap_ari_mean": 0.9997267599661412,
+  "bootstrap_ari_std": 0.0005146011795609234,
+  "bootstrap_ari_ci95": [
+    0.9987323923512966,
+    1.0
+  ],
+  "clustering": {
+    "purity": 0.8793233082706767,
+    "ARI": 0.8376543622694618,
+    "NMI": 0.9021205121357503
+  },
+  "zeroshot": {
+    "accuracy": 0.7883458646616541,
+    "F1_macro": 0.7220357854330335,
+    "ARI": 0.7483174767739995
+  },
+  "n_unique_labels": 8,
+  "classes": [
+    "Battery",
+    "Keyboard",
+    "Microwave",
+    "Mobile",
+    "Mouse",
+    "PCB",
+    "Player",
+    "Printer",
+    "Television",
+    "Washing Machine"
+  ],
+  "runtime_seconds": 531.4817585945129
+}
